@@ -23,3 +23,5 @@ const capPlanets = planets.map(planet => planet[0].toUpperCase() + planet.substr
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 */
+
+const planetsThatContainE = planets.filter(planet => planet.includes('e'));
